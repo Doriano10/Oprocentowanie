@@ -5,4 +5,7 @@ print("Witaj w kalkulatorze oprocentowania pożyczki")
 kwota_początkowa = float(input("Proszę podać początkową kwotę kredytu:\n"))
 
 # pobranie od użytkownika wartości oprocentowania pożyczki
-float(input("Proszę podać oprocentowanie pożyczki:\n"))
+oprocentowanie = float(input("Proszę podać oprocentowanie pożyczki:\n"))
+
+# pobranie od użytkownika wartości kwoty raty stałej
+rata = float(input("Proszę podać wartość raty kredytu:\n"))
