@@ -33,7 +33,7 @@ infl_19 = 1.4805201044812
 infl_20 = 1.57703524727525
 infl_21 = -0.0774206903147018
 infl_22 = 1.16573339872354
-infl_23 = -0.404186717638335
+infl_23 = 0.404186717638335
 infl_24 = 1.49970852083123
 
 # wzór na kwotę zadłużenia
@@ -44,7 +44,7 @@ infl_24 = 1.49970852083123
 
 # styczeń
 print("styczeń:")
-month1 = float(1 + (infl_1 + oprocentowanie) / 1200) * kwota_początkowa - rata
+month1 = round(1 + (infl_1 + oprocentowanie) / 1200) * kwota_początkowa - rata
 print(f"Twoja pozostała kwota kredytu to {month1} zł, to o {kwota_początkowa - month1} zł\n")
 
 # luty
